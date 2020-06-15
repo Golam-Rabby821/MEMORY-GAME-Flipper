@@ -1,0 +1,10 @@
+*{
+  margin-left: 0;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width:400px;
+  height:300px;
+  border:4px solid #424E5A;
+}
