@@ -1,10 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+
 *{
   margin-left: 0;
+  font-family: 'Asap',sans-serif;
+}
+header {
+  background: white;
+  width: 408px;
+  height: 25px;
+}
+header h1{
+  text-align: center;
+  color: #0D1027;
+}
+.main{
+  background: #051920;
+  height: 100vh;
+  width: 408px;
+}
+.main h3{
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  
+}
+.main p{ 
+  color:#55F195;
+  font-size: 20px;
+  font-weight : bold;
+  /*background:#15185B ;*/
+  border-top:2px solid red;
+  border-bottom:2px solid red;
+  padding: 10px;
+  
 }
 .grid{
   display: flex;
   flex-wrap: wrap;
   width:400px;
   height:300px;
-  border:4px solid #424E5A;
+  border:4px solid #0A6A87;
 }
