@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cardsChosen = []
     cardsChosenId = []
     if (cardsWon.length == cardArray.length / 2) {
-      console.log('Congratulations! You found them all!')
+      alert('Congratulations! You found them all!')
       location.reload()
     }
   }
